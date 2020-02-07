@@ -24,7 +24,7 @@ x=df1.index.values.tolist()
 y1=df1['房源数量'].values.tolist()
 y2=df1['房源数量'].values.tolist()
 
-plt.plot(x, y1,color='green', marker='o', linestyle='dashed', linewidth=1, markersize=6)
+plt.plot(x, y1,color='green', marker='.', linestyle='dashed', linewidth=1, markersize=6)
 plt.bar(x, y2, width=0.8, color='blue', edgecolor='white', label='房源数量')
 plt.legend(loc="upper right")
 # ax.set(title='各面积的房源数量', xlabel='面积大小（平方米）', ylabel='房源数量')
